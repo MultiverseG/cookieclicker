@@ -64,12 +64,20 @@ var App=typeof App==='undefined'?0:App;
 
 <!--[if lt IE9]><script src="excanvas.compiled.js"></script><![endif]-->
 </head>
+
+<!-- Background audio -->
+<audio id="audio" autoplay loop>
+	<source src="music/click.ogg" type="audio/ogg">
+    <source src="music/click.mp3" type="audio/mpeg">
+	Error! Your browser does not support audio playback. Please upgrade to a newer version or switch to a different browser that supports audio playback.
+</audio>
+
 <body>
 
 <div id="wrapper">
 
 	<div id="topBar">
-		<div><b style="font-weight:bold;">Cookie Clicker</b>&trade; &copy; <a href="//orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2023 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
+		<div><b style="font-weight:bold;">Cookie Clicker</b>&trade; &copy; <a href="//orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2024 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
 		<div><a href="https://twitter.com/orteil42" target="_blank" id="topbarTwitter">twitter</a></div>
 		<div><a href="https://orteil42.tumblr.com" target="_blank" id="topbarTumblr">tumblr</a></div>
 		<div style="position:relative;"><div style="width:22px;height:32px;background:url(img/discord.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a href="https://discordapp.com/invite/cookie" target="_blank" style="padding-left:16px;" id="topbarDiscord">Discord</a></div>
@@ -85,9 +93,7 @@ var App=typeof App==='undefined'?0:App;
 			Other versions
 			<div class="hoverable">
 				<a href="../" target="_blank" id="linkVersionLive">Live version</a>
-				<a href="beta" target="_blank" id="linkVersionBeta">Try the beta!</a>
-				<a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">v. 1.0466</a>
-				<a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">Classic</a>
+				<a href="//multiverseg.github.io/experiments/cookie/" target="_blank">Classic</a>
 			</div>
 		</div>
 	</div>
