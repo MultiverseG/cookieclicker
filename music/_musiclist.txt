@@ -1,2 +1,2 @@
-click.mp3
-click.ogg
+http://orteil.dashnet.org/cookieclicker/snd/click.mp3
+http://orteil.dashnet.org/cookieclicker/snd/click.ogg
